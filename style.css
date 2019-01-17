@@ -36,8 +36,8 @@ html, body{
      }
     .img{
       display: inline-block;
-      width: 250px;
-      height:200px;
+      width: 300px;
+      height:250px;
       opacity: 0.2; 
       transition: transform .5s, opacity .5s;
     }
@@ -48,10 +48,10 @@ html, body{
     #bftlab{
     margin-left:30px
     }
-    #apollo{
+    #apollo, #btf, #alien{
       position:absolute;
       margin-top: 200px;
-      opacity:0;
+      visibility: hidden;
     }
     a{
      color: green;
@@ -73,14 +73,23 @@ html, body{
     #up-button{
       position: fixed;
       margin-left: 95%;
-      
       opacity:0;
-      border: 2px solid darkorange;
       padding-top: 10px;
-      font-size:19px;
-      background: #16c20a;
-      border: 2px solid #1c9e25;
+      width: 30px;
+      height: 30px;
     }
-    #text-apollo{
+    .text-apollo, .text-btf, .text-alien{
       text-align: left;
     }
+    #title-tab{
+      right: 20px;
+    }
+    #up-button > a > img{
+      width: 30px;
+      height: 30px;
+    }
+    #alien-link{
+      font-size: 25px;
+      color: orange;
+    }
+   

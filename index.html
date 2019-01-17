@@ -1,4 +1,4 @@
-<!--Study front end time 1 month-->
+<!--Study front end, - time 1 month-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,43 +11,160 @@
   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
  <link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
  <link href="style.css" rel="stylesheet">
- <script src="script.js"></script>
+ <script src="script.js" defer></script>
  </head>
  <body>
    <header>
      <div id="navbar">
        <audio id="audio">
- <source src="https://doc-08-2s-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/0h2b6gco7uo7iis7ek95d33ecin0rsd7/1547704800000/15378220619744788136/*/1Mi4IAUfOj6hqYu_wfXnpXINs3sssU-V7?e">
+ <source src="sounds/ME-ME3-Start-Sound.mp3">
        </audio>
-       <label for="apollotab" onmouseover="changeOpacityOne()" onmouseout="rechangeOpacityOne()" onclick="tabOpacityOne()" id="title-tab"><a href="#apollo">Apollo20</a></label>
-       <label for="bfttab" onmouseover="changeOpacityTwo()" onmouseout="rechangeOpacityTwo()" id="bftlab"><input type="radio" id="btftab" name="navtab"/>Back to the Future 9/11</label>
-       <label for="alientab" onmouseover="changeOpacityThree()" onmouseout="rechangeOpacityThree()"><input type="radio" id="alientab" name="navtab"/>Alien Interview</label>
+       <audio id="audio2">
+        <source src="sounds/back_to_the_future.mp3">
+      </audio>
+      <audio id="audio3">
+        <source src="sounds/ui_loadscreen_microfiche_01.wav">
+      </audio>
+      <audio id="audio4">
+          <source src="sounds/ui_loadscreen_initial.wav">
+        </audio>
+       <label  onmouseover="changeOpacityOne()" onmouseout="rechangeOpacityOne()" onclick="tabOpacityOne()" id="title-tab"><a href="#apollo">Apollo20</a></label>
+       <label  onmouseover="changeOpacityTwo()" onmouseout="rechangeOpacityTwo()" onclick="tabOpacityTwo()" id="bftlab"><a href="#btf">Back to the Future 9/11</a></label>
+       <label  onmouseover="changeOpacityThree()" onmouseout="rechangeOpacityThree()"onclick="tabOpacityThree()" id="alienlab"><a href="#alien">Alien Interview</a></label>
        </div>
      <div id="img">
          <img src="http://www.angelismarriti.it/images/PresumedAS20-1020.jpg" class="img" id="img1">
          <img src="https://i.ytimg.com/vi/P1ULjJ3EqyY/maxresdefault.jpg" class="img" id="img2">
          <img src="https://lh4.googleusercontent.com/_HNJKZ3YKn9WkqGNNMMamaYb8FCwBiOC-mYWWXH6BSGwcwzG1A1QveaL6oyAXLrAZ1uO6J5zTv28PyvfuXsTmiFOzGjlDvaDND6z3xNmnh9CvyLrf1RRcZDxnGAt0OUQFw=s412" class="img" id="img3">
        </div>
-     <div id="up-button" onclick="up()"><a href="#title-tab">Up</a></div>
+     <div id="up-button" onclick="up()"><a href="#title-tab"><img src="img/up-arrow.png"></a></div>
      </header>
     <main>
       <div id="apollo">
-        <div id="text-apollo"><p>Some years ago a video appeared online claiming to show a secret Apollo mission, Apollo 20, launched in 1976 on a mission to the far side of the moon.</p>
-
-<p>It claims, amongst other things, to show a hidden alien city on the moon, and a female alien held in suspended animation.
-
-Many people believe this to be true, and certainly the maker of the video went to great lengths to make it appear that it was genuine.
-
+        <div class="text-apollo"><p>Some years ago a video appeared online claiming to show a secret Apollo mission, 
+          Apollo 20, launched in 1976 on a mission to the far side of the moon.</p>
+<p>It claims, amongst other things, to show a hidden alien city on the moon, and a female alien held in suspended 
+  animation.
+Many people believe this to be true, and certainly the maker of the video went to great lengths to make it appear 
+that it was genuine.
 There are many good debunking videos showing how some of the images have been derived, and I’ll provide links to them later.</p>
-<p>There are many good debunking videos showing how some of the images have been derived, and I’ll provide links to them later.</p>
-
-<p>What I intend to do here is to debunk the claim that it is filmed inside a genuine command and lunar module, and that the images are from a secret mission. I’m not interested in who did it, or why, I’m interested in how..
-
+<p>There are many good debunking videos showing how some of the images have been derived, and I’ll provide links to
+   them later.</p>
+<p>What I intend to do here is to debunk the claim that it is filmed inside a genuine command and lunar module, and 
+  that the images are from a secret mission. I’m not interested in who did it, or why, I’m interested in how..
 The video appears in 3 parts, and I’m going to look at the 2nd part first. Here’s one source for it:</p> </div>
-  <div id="apollo-video1">
+  <div class="apollo-video1">
   <iframe src="https://www.youtube.com/embed/c5JXnYw6JF4?rel=0" allowfullscreen="" frameborder="0" height="350px" width="400px"></iframe>
   </div>
+  <div class="text-apollo">
+    <p>I’ll start at the very beginning, as it’s a very good place to start, with the opening shot: 
+      a shaky view of an Apollo Command Module (CM) hatch window supposedly filmed in space. I will 
+      demonstrate two things: firstly, it is a genuine Apollo CM, and secondly it is nowhere near the
+       moon but safely on the ground here on Earth.
+     Here’s a screenshot of the CM from the film:</p>
+  </div>
+  <div class="apollo-video1">
+  <iframe src="https://www.youtube.com/embed/rxbmRxqxxBA?rel=0" allowfullscreen="" frameborder="0" height="350px" width="400px"></iframe>
+  </div>
       </div>
+     <div id='btf'>
+         <div class="text-btf">
+       <p>As everyone is looking towards October 21, 2015 - ie, 
+         the day Marty McFly travels to in Back to the Future II - they obsess over hoverboards 
+         and self-lacing Nikes and Pepsi Perfect. But what they're missing is the bigger message, 
+         the deeper meaning, the real truth:</p>
+      <p><b>Back to the Future</b> predicted 9/11, and there's a conspiracy video to prove it. </p>
+      <p>I don't know how much of this video is for real and how much is a joke, but I will tell you that it really
+         blew my mind about 6 minutes in when it juxtaposed Marty from October 2015 (long way around, to be fair) 
+         with an image from Back to the Future director Robert Zemeckis' new movie, The Walk, released in October 
+         2015:</p>
+         <p>WHOAAAAAA</p>
+         <p>The video is semi-repetitive and a lot of its points are hilariously bizarre - exactly what you might find in a
+            conspiracy video. Stuff like the way the 1955 DeLorean burning tire tracks make a 9/11 in the frame, or 
+            how the time of Marty meeting Doc at Twin Pines Mall (you can guess what they do with Twin Pines, right?) 
+            is 1:16.. 91:1 upside down. There's really good stuff about the Twin Towers on the TV in the future McFly
+             household as well. 
+            Is it real? Is it parody? 
+            This video perfectly proves Poe's Law - you can't tell. And that's what makes it great.</p></div>
+            <div id="btf-video">
+                <iframe src="https://www.youtube.com/embed/Py4g1f-rH3U?rel=0" allowfullscreen="" frameborder="0" height="350px" width="400px"></iframe>
+            </div>
+            <p>Watch the whole thing. It gets touchingly earnest at the end. </p>
+     </div>
+     <div id="alien">
+       <div class="text-alien">
+         <p>Forty years after the government shut it down, the Air Force's infamous UFO organization, Project 
+           Blue Book, is in the news again.Last month, a shaky black-and-white video appeared on YouTube that 
+           appeared to show a dark interrogation room. On the other side of the table is a hunched, grey alien 
+           with bulbous, black eyes. An unseen interrogator starts in with questions:</p>
+           <blockquote>Interrogator: We recording? State planet of origin. <br>
+              Alien: Earth. <br>
+              Interrogator: Yesterday you told us you traveled...and I quote..."Thousands of light years to get here."<br>
+              Alien: Yes. <br>
+              Interrogator: Tell us the truth or (indiscernible).</blockquote>
+        <p>From there, the interrogator asks about time travel, morality, the fate of humanity, the nature of the universe, 
+          and the meaning of life. Each question is answered by the alien in a gravelly, guttural voice that sounds more 
+          like a garbage compactor than human speech, but each answer is more mind-blowing than the last: the alien claims
+           that it's not an alien after all, but a time traveler from a future Earth that has been almost destroyed by 
+           nuclear war. It offhandedly mentions that time travel is possible by travelling through space, that this 
+           universe is only one of many, and life and death as we know are merely illusions. You can watch the original 
+           video here:</p>    
+       </div>
+       <div id="alien-video">
+          <iframe src="https://www.youtube.com/embed/G2xXu8_2Exo?rel=0" allowfullscreen="" frameborder="0" height="350px" width="400px"></iframe>
+       </div>
+       <div class="text-alien">
+         <p>A number of UFO websites and communities picked up the video, generating discussion on whether this was 
+           "The One": the final piece of evidence that proved once and for all that extraterrestrials are real. An 
+           especially tantalizing piece of information was included in the description of the video:</p>
+           <blockquote>
+              Extraordinary Project Blue Book file film of Alien interviewed in 1964. Subject was named 'EBE-3' and was held captive for 5 days. 
+              Subject disappeared from Government records on date of this event.
+           </blockquote>
+         <p>Project Blue Book was the official government organization tasked with investigating UFO 
+           sightings across the United States. Formally created in 1952, it handled roughly 12,000 sightings 
+           of potential UFOs and brought together a team of scientists and military personnel. The project was
+            discontinued in 1969, and its records were later declassified. Like MKULTRA or Project Y 
+            (the US Air Force's experimental flying saucer, also called the Avrocar), Project Blue Book 
+            is one of those secret government projects that seem to confirm every conspiracy theorist's 
+            suspicions: the government did have secret task forces investigating extraterrestrials, and 
+            its findings were kept secret from the public. What's more, Blue Book was created at a time when 
+            UFO sightings had escalated to the point of mass hysteria-Kenneth's Arnold's famed encounter with a 
+            V-shaped formation of lights over Mount Rainier became the impetus for Project Blue Book's inception 
+            During its operation, Project Blue Book investigated a number of high-profile UFO cases, 
+            including the Lubbock Lights. The scientific consultant and astronomer for the Project, J. 
+            Allen Hynek, also codified the "Close Encounter" categories-the basis for the title of the sci-fi
+             movie Close Encounters of the Third Kind. Under Captain Edward Ruppelt, the organization coined 
+             the term "Unidentified Flying Object" and attempted to create more rigorous reporting methods for
+              UFO sightings. As the Project progressed, the majority of sightings were determined to have mundane
+               explanations, but a small number were deemed genuinely unexplainable.
+            
+            However, in the summer of 1952, Project Blue Book was brought before the Robertson Panel, which 
+            was meant to assess the Project and its findings. According to a memorandum, the members of the
+             Panel were unimpressed with the Project's results and mandated that its primary goal change to 
+             creating "an integrated program designed to reassure the public of the total lack of evidence of
+              Inimical forces behind the phenomenon." This meant the goal of Project Blue Book had essentially
+               changed from seriously investigating extraterrestrials to convincing the public that UFO sightings
+                were anything but extraterrestrial.
+            
+            After changing leadership multiple times and meeting with harsh criticism from outside observers,
+             including accusations by NICAP (The National Investigations Committee on Aerial Phenomena) that the
+              group's main goal was covering up UFO encounters, the Project was ultimately shut down, leaving
+               behind a legacy of unanswered questions and widespread suspicion.
+            
+            Like the majority of Project Blue Book's cases, the supposed Blue Book alien interview on 
+            YouTube was quickly proven to be fake. It was revealed as a pet project of Aristomenis Tsirbas,
+             the digital effects artist behind several Star Trek productions. Isaac Koi, a UFO debunker, wrote 
+             up a thorough report on the video and pointed out that Tsirbas had created another UFO hoax video, 
+             titled UFO Over Santa Clarita, in 2012, along with a breakdown of how the video was created. You can
+              read Isaac Koi's full report <a id="alien-link" href="http://www.isaackoi.com/ufo-videos/koi-ufo-video-127.html" target="_blank">here.</a>
+             
+            In the face of all these false positives, mysteries,
+             and straight-up hoaxes, it's hard to keep faith in reports of extraterrestrials.
+              It's enough to make Fox Mulder hang up his badge and gun, but in the end, I think we all want to 
+              believe.</p>  
+       </div>
+     </div>
    </main>
    <footer></footer>
   </body>  
