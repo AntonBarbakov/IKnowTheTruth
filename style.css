@@ -19,7 +19,6 @@ html, body{
       justify-content: space-around;
       height: 100px;
       padding: 10px;
-      margin-top: 100px;
       color: green;
       font-size: 22px;
       font-family: 'Orbitron', sans-serif;
@@ -27,6 +26,10 @@ html, body{
     #navbar > label:hover{
       cursor: pointer;
       color: orange;
+    }
+    #navbar > label{
+      margin-top: 100px;
+      padding-top: 50px;
     }
     #img{
       display: flex;
@@ -91,5 +94,10 @@ html, body{
     #alien-link{
       font-size: 25px;
       color: orange;
+    }
+    #title{
+      text-align: center;
+      font-size: 30px;
+      padding: 50px;
     }
    

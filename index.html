@@ -12,9 +12,35 @@
  <link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
  <link href="style.css" rel="stylesheet">
  <script src="script.js" defer></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <style>
+   #page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 100500;
+}
+
+#page-preloader .spinner {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 43%;
+    top: 30%;
+}
+</style>
  </head>
  <body>
-   <header class="id">
+    <div id="page-preloader"><img src="img/alien.png" class="spinner"></div>
+   <header>
+     <div id="title">
+       <h1>I Know<br> 
+        The<br>
+         Truth</h1>
+     </div>
      <div id="navbar">
        <audio id="audio">
  <source src="sounds/ME-ME3-Start-Sound.mp3">
