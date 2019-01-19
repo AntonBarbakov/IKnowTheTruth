@@ -1,4 +1,4 @@
-html, body{
+    html, body{
     height: 100%;
     scroll-behavior: smooth;
     }
@@ -96,8 +96,76 @@ html, body{
       color: orange;
     }
     #title{
-      text-align: center;
-      font-size: 30px;
-      padding: 50px;
+       
+        text-align: center;
+        font-size: 22px;
+        color: #fff;
+        letter-spacing: -7px;
+        font-weight: 700;
+        text-transform: uppercase;
+        animation: blur 3s ease-out infinite;
+        text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+      
     }
-   
+    @keyframes blur {
+      from {
+        text-shadow:0px 0px 10px #fff,
+          0px 0px 10px #fff, 
+          0px 0px 25px #fff,
+          0px 0px 25px #fff,
+          0px 0px 25px #fff,
+          0px 0px 25px #fff,
+          0px 0px 25px #fff,
+          0px 0px 25px #fff,
+          0px 0px 50px #fff,
+          0px 0px 50px #fff,
+          0px 0px 50px #7B96B8,
+          0px 0px 150px #7B96B8,
+          0px 10px 100px #7B96B8,
+          0px 10px 100px #7B96B8,
+          0px 10px 100px #7B96B8,
+          0px 10px 100px #7B96B8,
+          0px -10px 100px #7B96B8,
+          0px -10px 100px #7B96B8;
+      }
+    }
+    footer{
+      display: flex;
+      justify-content: space-between;
+      background-color:rgba(5, 66, 5, 0.63);
+      margin-top: 1500px;
+      border-radius: 10px;
+      height:100px;
+      opacity: 1;
+      transition: opacity 0.8s;
+      }
+    footer > #footer-information > button{
+      margin-top: 30px;
+      margin-left: 20px;
+      padding: 10px 30px 10px 2px;
+      border-radius: 5px;
+      background-color: black;
+      color:lawngreen;
+      border: 1px solid black;
+    }
+    footer > #footer-contacts > p{
+      font-size: 18px;
+      margin-right: 20px;
+      margin-top: 10px;
+    }
+    #footer-contacts{
+      border-left: 2px solid lawngreen;
+      padding-left: 50px;
+      text-align: center;
+      }
+    #footer-contacts > a > img {
+      padding-left: 5px;
+    }
+    #facebook-img{
+      padding-right: 35px;
+    }  
+    #created-by{
+      text-align: center;
+      font-size: 16px;
+      padding-bottom: 20px;
+      } 
